@@ -1,0 +1,1 @@
+Some log content that is not part of my program
