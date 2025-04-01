@@ -4,3 +4,5 @@
 // Integer: Numeric, Decimal Points
 // Undefined: Does not exist or is not set
 // Null: Non-existent
+
+console.log("Hello World!");
