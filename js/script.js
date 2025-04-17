@@ -1,8 +1,14 @@
-// Datatypes
-// Boolean: True or False
-// String: "Any typical Sentence"
-// Integer: Numeric, Decimal Points
-// Undefined: Does not exist or is not set
-// Null: Non-existent
 
-console.log("Hello World!");
+// A $( document ).ready() block.
+$(document).ready(function () {
+
+  $('#myBTN').on('click', goToMyFunction);
+  function goToMyFunction() {
+    var myName = $('#myName').val();
+    alert("myName")
+    $('.myClass').css("color", "red");
+    // $('.myClass').hide();)
+  }
+  $('.myClass').css("color", "purple");
+
+});
